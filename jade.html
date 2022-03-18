@@ -109,7 +109,7 @@ crossorigin="anonymous">
                    var tax = 0;
                    //edit prices when anything from dropdown menus are selected
                    $('select').change(function () {
-                       var subtotal = 0;
+                       subtotal = 0;
                        //check each menu item and update cost
                        for (i = 0; i < menuItems.length; i++) {
                            currval = ((form["quan" + i].value)*(menuItems[i].cost)).toFixed(2);
@@ -191,7 +191,7 @@ crossorigin="anonymous">
                                //delevery is clicked
                                myWindow.document.write("<br>Delivery Time: " + actualTime);
                            }
-;
+
                        }
                      });
                    
